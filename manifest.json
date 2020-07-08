@@ -1,0 +1,21 @@
+{
+    "name": "CoinPot Faucet Utility",
+    "version": "1.0",
+    "version_name": "1.0 beta",
+    "manifest_version": 2,
+    "description": "A plugin that helps in the claiming process of coinpot faucets (Moon, BitFun, Bonus).",
+    "author": "MacAndSwiss",
+    "content_scripts": [{
+      "matches": ["https://moonbitcoin.cash/faucet", "https://bitfun.co/games"],
+      "js": ["main.js"],
+      "run_at": "document_end"
+    }],
+    "browser_action": {
+      "default_popup": "plugin.html",
+      "default_title": "CoinPot Faucet Utility"
+    },
+    "permissions": ["storage"],
+    "icons": {
+      "128": "logo128.png"
+    }
+  }

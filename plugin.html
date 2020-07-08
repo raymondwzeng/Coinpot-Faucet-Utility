@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            width: 500px;
+            height: 470px;
+        }
+    </style>
+    <script src='extension-page.js'></script>
+</head>
+  <body>
+    <center><h1>CoinPot Faucet Utility</h1></center>
+    <p class='text-muted mx-2'>Includes an anti-anti-adblock for certain sites.
+         Buy me a coffee <a href="https://ko-fi.com/macandswiss" target="__blank" rel="noopener noreferrer">here</a> to support future projects.</p>
+    <div class="container">
+        <h5>Sites to Open</h5>
+        <hr>
+        <div class="container mx-2">
+            <div class="row">
+                <input type="checkbox" id="mbtc" data-target="https://moonbit.co.in/faucet">
+                <label for="mbtc">&nbsp;Moon Bitcoin</label>
+            </div>
+            <div class="row">
+                <input type="checkbox" id="mdoge" data-target="http://moondoge.co.in/faucet">
+                <label for="mdoge">&nbsp;Moon Dogecoin</label>
+            </div>
+            <div class="row">
+                <input type="checkbox" id="mltc" data-target="http://moonliteco.in/faucet">
+                <label for="mltc">&nbsp;Moon Litecoin</label>
+            </div>
+            <div class="row">
+                <input type="checkbox" id="mbcc" data-target="https://moonbitcoin.cash/faucet">
+                <label for="mbcc">&nbsp;Moon Bitcoin Cash</label>
+            </div>
+            <div class="row">
+                <input type="checkbox" id="mdash" data-target="https://moondash.co.in/">
+                <label for="mdash">&nbsp;Moon Dash</label>
+            </div>
+            <div class="row">
+                <input type="checkbox" id="bitfun" data-target="https://bitfun.co/">
+                <label for="bitfun">&nbsp;BitFun</label>
+            </div>
+            <div class="row">
+                <input type="checkbox" id="bonusbtc" data-target="https://bonusbitcoin.co/">
+                <label for="bonusbtc">&nbsp;Bonus Bitcoin</label>
+            </div>
+        </div>
+    </div>
+    <center><button class='btn btn-primary btn-lg' id='launch'>Launch Sites!</button></center>
+  </body>
+</html>
