@@ -11,7 +11,7 @@ A small chrome extension that allows the user to easily launch all faucet sites 
 3. Go to `chrome://extensions` and click on `Load Unpacked`.
 4. Select the folder that the files are in.
 
-> "Why don't you upload the extension to the Chrome Webstore?
+> "Why don't you upload the extension to the Chrome Webstore?"
 
 I'm too cheap. But I'll probably get around to it eventually™.
 
