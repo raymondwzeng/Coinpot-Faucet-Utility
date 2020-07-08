@@ -12,6 +12,7 @@ A small chrome extension that allows the user to easily launch all faucet sites 
 4. Select the folder that the files are in.
 
 > "Why don't you upload the extension to the Chrome Webstore?
+
 I'm too cheap. But I'll probably get around to it eventually™.
 
 In all seriousness, I am currently a freshman college student who has no real source of income beyond Amazon MTurk and some other survey/study sites. If you want to support my work, the Ko-fi link is below. Thanks!
